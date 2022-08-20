@@ -11,7 +11,35 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
+    background-color: beige;
+}
+
+header{
     background-color: antiquewhite;
+    height: calc(100vh - 70px);
+}
+
+h1{
+    font-size: 72px;  
+}
+
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button{
+background-color: rgb(43, 235, 235);
+color: rgb(72, 124, 12);
+padding: 8px 16px;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: violet;
+    color: black;
 }
 
 a{
@@ -31,4 +59,12 @@ ul{
 li{
     list-style-type: none;
     padding-left: 16px;
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
