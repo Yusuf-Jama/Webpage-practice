@@ -11,7 +11,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
-    background-color: beige;
+    background-color: rosybrown;
 }
 
 header{
@@ -72,6 +72,7 @@ li{
 
 #About{
     padding: 60px;
+    background-color: antiquewhite;
 }
 
 h2{
@@ -87,5 +88,15 @@ h2{
 
 .about__img--wrapper{
     width: 100%;
-    
+}
+
+.section__div{
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
